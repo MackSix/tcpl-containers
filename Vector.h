@@ -23,9 +23,9 @@ public:
 
     ~Vector();
 
-    double& operator[](int i); 
+    double& operator[](unsigned int i); 
 
-    int size() const; 
+    unsigned int size() const; 
 };
 
 #endif /* VECTOR_H */

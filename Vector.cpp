@@ -22,10 +22,10 @@ Vector::~Vector() {
     delete[] elem;
 } // destructor: release resources
 
-double& Vector::operator[](int i) {
+double& Vector::operator[](unsigned int i) {
     return elem[i];
 }
 
-int Vector::size() const {
+unsigned int Vector::size() const {
     return sz;
 }
