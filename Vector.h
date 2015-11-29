@@ -15,9 +15,9 @@ using namespace std;
 class Vector {
 private:
     double* elem; // elem points to an array of sz doubles
-    int sz;
+    unsigned int sz;
 public:
-    Vector(int s);
+    Vector(unsigned int s);
 
     Vector(std::initializer_list<double> lst);   
 
